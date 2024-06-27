@@ -1,0 +1,35 @@
+body {
+    background-color: lightcyan;
+}
+
+header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.flex-container>section {
+    /* (960 - (45*2 + 16*6 + 2*6)) / 3 */
+    width: 254px;
+    padding: 16px;
+    border: 2px solid #000;
+}
+.flex-container>section>p {
+    margin-bottom: 16px;
+}
+
+.flex-container>section>dl>dd {
+    margin-bottom: 16px;
+}

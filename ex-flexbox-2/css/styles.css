@@ -1,0 +1,32 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+.container section {
+    background-color: lightgray;
+    padding: 16px;
+    width: 272px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.flex-container>section>ul>li {
+    list-style-type: disc;
+    margin-left: 16px;
+}
